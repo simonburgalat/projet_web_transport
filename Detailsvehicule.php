@@ -26,8 +26,8 @@
 </div>
 
 
-<div id='menu_lien'>
-<?php include ("Menu_liens.php") ;?>
+<div id='menu_liens'>
+<?php include ("Menuliens.php") ;?>
 </div>
 
 </body>

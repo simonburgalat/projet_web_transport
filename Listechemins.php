@@ -20,9 +20,9 @@
 <table  border="1" >
 
 <tr>
-<th> Trajets</th>
-<th> Départs</th>
-<th> Ajouter un trajet</th>
+<th> Chemins</th>
+<th> Courses</th>
+<th> </th>
 </tr>
 <tr>
 <td>    </td>
@@ -42,8 +42,8 @@
 </table>
 </div>
 
-<div id='menu_lien'>
-<?php include ("Menu_liens.php") ;?>
+<div id='menu_liens'>
+<?php include ("Menuliens.php") ;?>
 </div>
 
 
