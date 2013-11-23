@@ -21,7 +21,6 @@
 	Login: <input type="text" id="login">
 	Password: <input type="text" id="password">
 	<input type="submit" id="valider" value="Valider">
-	<a href="‪Inscription.php">Créer un compte</a>
 	</td>
 	</tr>
 	</table>
@@ -32,6 +31,9 @@
 <div id='menu_liens'>
 <?php include ("Menuliens.php") ;?>
 </div>
+
+
+
 
 </body>
 

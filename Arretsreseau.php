@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -12,7 +12,7 @@
 
   <body>
 
-    <h1 id='main_titre'>Liste des courses</h1>
+    <h1 id='main_titre'>Arrets du réseau</h1>
 	
 
 	

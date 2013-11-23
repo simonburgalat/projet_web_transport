@@ -1,3 +1,4 @@
+﻿
 <!DOCTYPE html>
 
 <html>
@@ -25,9 +26,7 @@
 <th> Horaires</th>
 </tr>
 <tr>
-<td>    </td>
-<td>    </td>
-<td>    </td>
+<?php include("Affichagecourses.php") ?>
 </tr>
 
 

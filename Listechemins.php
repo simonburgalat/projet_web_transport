@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -22,20 +22,22 @@
 <tr>
 <th> Chemins</th>
 <th> Courses</th>
-<th> </th>
+
 </tr>
 <tr>
-<td>    </td>
-<td>    </td>
-<td>   <input type="button" name="détails_trajet" value="Détails" onclick="détails_trajet()" >  </td>
+ <?php include("Cheminstab.php")?>   
+
+
 </tr>
 
 
 <div id='ajout_chemin'>
-<p>Nom:</p> <input type="text"  id="Nom_chemin">
+<form action="Ajoutchemin.php" method="post">
+<p>ID:</p> <input type="text"  id="ID_chemin">
 <p>Départ:</p> <input type="text" id="Depart_chemin">
 <p>Terminus:</p> <input type="text" id="Terminus_chemin">
-<p> <input type="submit" name="new_chemin" value="Ajouter le chemin" onclick="ajout_chemin()"></p>
+<p> <input type="submit" name="new_chemin" value="Ajouter le chemin" </p>
+</form>
 </div>
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -16,34 +16,33 @@
 	
 
 	
-<div id='menu_vehicules'>
-<table  border="1" >
-<caption>Véhicules</caption>
-<tr>
-<th> ID</th>
-<th> Type</th>
-<th> Position</th>
-<th> Ajouter un véhicule</th>
-</tr>
-<tr>
-<td>    </td>
-<td>    </td>
-<td>    </td>
-<td>   <input type="button" name="ajout_vehicule" value="Détails" onclick="détails_vehicule()" >  </td>
-</tr>
+	<form name="combovehi" method="post" action="Affichedetails.php" >
+   <p>
+       <label >Selectionner le véhicule à visualiser</label><br />
+       <select name="Véhicules" id="Vehicules">
+           <?php include ("Combovehicules.php") ;?>
+       </select>
+   </p>
+   <input type="submit" value="OK" >
+</form>
+	
+	
+	
+	<a id='Allvehi' href="Allvehicules.php" >Voir tout les véhicules </a>
 
-
-
-
-
-</table>
-</div>
 
 <div id='ajout_vehicule'>
-<p>ID:</p> <input type="text"  id="ID_ajout">
-<p>Type:</p> <input type="text" id="Type_ajout">
-<p> <input type="submit" value="Ajouter le véhicule" onclick="ajout_vehicule()"></p>
+<form action="Ajoutvehicule.php" method="post">
+<p>ID:</p> <input type="text"  name="ID_ajout" >
+<p>Type:</p> <input type="text" name="Type_ajout">
+<p> <input type="submit"  value="Ajouter le véhicule" onclick=""></p>
+</form>
 </div>
+
+
+
+
+
 
 
 
