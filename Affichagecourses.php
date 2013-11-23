@@ -1,6 +1,5 @@
-       <?php 
-	  
-	   //On recupere la base de données Projet Transport
+<?php 
+//On recupere la base de données Projet Transport
 try
 {
 	$bdd = new pdo('mysql:host=localhost;dbname=Projet Transport', 'root', '');
@@ -9,11 +8,11 @@ catch (Exception $e)
 {
         die('Erreur : ' . $e->getMessage());
 }
-	   
-	?>  
+?>  
 	  
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+   
    <head>
        
    </head>
